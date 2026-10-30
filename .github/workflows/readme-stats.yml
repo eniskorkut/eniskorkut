@@ -24,10 +24,15 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
-      - name: Commit stats card
+      - name: Generate activity graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/activity_graph.py --username eniskorkut --output profile/activity.svg
+
+      - name: Commit profile cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/stats.svg
-          git commit -m "Update profile stats" || exit 0
+          git add profile/stats.svg profile/activity.svg
+          git commit -m "Update profile cards" || exit 0
           git push
