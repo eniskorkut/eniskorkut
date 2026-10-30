@@ -8,7 +8,6 @@ Yapay zekâyı yalnızca bir API üzerinden kullanmak yerine; veri işleme, retr
 
 *Building reliable AI systems, intelligent developer tools and practical ML applications.*
 
-📍 Ankara, Türkiye
 
 ---
 
