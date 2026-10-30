@@ -11,89 +11,116 @@ Yapay zekâyı yalnızca bir API üzerinden kullanmak yerine; veri işleme, retr
 
 ---
 
-## Uzmanlık ve çalışma alanlarım
+## Teknoloji yığınım
 
-- **LLM & RAG Engineering:** Hybrid search, vector databases, context management, streaming responses ve retrieval değerlendirme.
-- **AI Agents & Orchestration:** Multi-agent teamwork, görev delegasyonu, milestone yönetimi, proje hafızası ve IDE entegrasyonları.
-- **LLM Evaluation & Observability:** LLM-as-a-Judge, kalite kontrolü, trace analizi, gecikme ve token metrikleri.
-- **Backend & Full-Stack Development:** Python, FastAPI, Next.js, React, TypeScript ve API mimarileri.
-- **Applied Machine Learning:** NLP, açıklanabilir yapay zekâ (XAI), finansal modelleme ve veri analizi.
-- **AI Security & Automation:** İnsan denetimli karar süreçleri, güvenli otomasyon, log analizi ve veri koruma yaklaşımları.
+**Languages & Backend**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+**Data & AI Infrastructure**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+**AI & Machine Learning**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square)
+![SHAP](https://img.shields.io/badge/SHAP-8A2BE2?style=flat-square)
+`RAG` · `LLM` · `MCP` · `Multi-Agent Systems` · `AWS Bedrock` · `OpenTelemetry`
+
+---
 
 ## Öne çıkan açık kaynak projelerim
 
-### 1. Auto-Orchestrator — Multi-Agent Engineering
-
-**[GitHub → auto-orchestrator](https://github.com/eniskorkut/auto-orchestrator)**
-
-Kod geliştirme ajanlarının birlikte ve kontrollü çalışmasını sağlayan yerel orkestrasyon altyapısı.
-
-- Codex, OpenCode V2, Cursor ve Antigravity için entegrasyon katmanları.
-- Teamwork, Grill-Me ve milestone tabanlı görev planlama.
-- Paralel görevlerde dosya sahipliği ve çakışma kontrolü.
-- Gerçek test kanıtlarına dayalı Verified Completion yaklaşımı.
-- IDE'ler arasında proje durumu devri ve kalıcı görev hafızası.
-- Ajanların çalışma durumunu ve doğrulama sonuçlarını gösteren dashboard.
-
-**Teknolojiler:** Python, CLI, IDE-native agents, SQLite, Testing, GitHub Actions.
-
-### 2. Bugrecall — AI Debugging Memory
-
-**[GitHub → bugrecall](https://github.com/eniskorkut/bugrecall)**
-
-Yapay zekâ kodlama ajanlarına proje bazlı hata ayıklama hafızası kazandıran local-first MCP sistemi.
-
-- Tekrarlanan hataları ve doğrulanmış çözümleri hatırlar.
-- Daha önce reddedilmiş düzeltme yöntemlerini saklar.
-- Hataları imzalara göre sınıflandırır.
-- Proje bağlamına uygun geçmiş deneyimleri getirir.
-- Yerel veri depolama ve isteğe bağlı semantik arama sunar.
-
-**Teknolojiler:** TypeScript, Node.js, MCP, SQLite, Embeddings.
-
-### 3. Job Finder — AI-Powered Job Matching
-
-**[GitHub → job-finder](https://github.com/eniskorkut/job-finder)**
-
-İş ilanlarını kullanıcıların CV'leri ve tercihleriyle eşleştiren, yapay zekâ destekli iş arama ve takip uygulaması.
-
-- Gmail ve Outlook üzerinden ilan toplama.
-- LLM destekli CV ve ilan uygunluk değerlendirmesi.
-- SearXNG ile ek iş ilanı keşfi.
-- Tekilleştirme, tarih ve kaynak doğrulama.
-- Telegram bildirimleri ve otomatik tarama.
-- Kullanıcı bazlı dashboard ve değerlendirme akışı.
-
-**Teknolojiler:** Python, FastAPI, Next.js, TypeScript, SQLAlchemy, SearXNG, Docker.
-
-### 4. BIST Research — Financial Intelligence
-
-**[GitHub → bist-research](https://github.com/eniskorkut/bist-research)**
-
-Borsa İstanbul ve ABD piyasaları için veri toplama, şirket değerleme ve araştırma araçlarını birleştiren finansal analiz ortamı.
-
-- BIST hisselerinde hacim ve piyasa ilgisi analizi.
-- Çok yöntemli şirket değerleme ve sektör karşılaştırması.
-- Finansal verilere doğal dil üzerinden erişim için MCP araçları.
-- OpenBB ve SEC EDGAR tabanlı ABD şirket araştırması.
-- Streamlit tabanlı analiz ekranları.
-
-**Teknolojiler:** Python, Pandas, Streamlit, OpenBB, MCP, SQLite.
-
-### 5. Meeting Intelligence — Local-First Meeting Analysis
-
-**[GitHub → toplant-ozeti](https://github.com/eniskorkut/toplant-ozeti)**
-
-Yerel öncelikli toplantı transkripsiyonu, konuşmacı ayrıştırma ve toplantı analizi için web uygulaması.
-
-- Tarayıcı tabanlı ses kaydı ve yükleme akışı.
-- FastAPI + ffmpeg + whisper.cpp + sherpa-onnx tabanlı CPU uyumlu backend.
-- Konuşmacı etiketli transkript ve LLM analizi için genişletilebilir mimari.
-- Linux Docker container'da tekrarlanabilir backend çalıştırma.
-
-**Teknolojiler:** Python, FastAPI, TypeScript, whisper.cpp, sherpa-onnx, Docker.
-
-> Durum: Ses kaydı ve dönüştürme hattı hazır; konuşma metnine dökme, konuşmacı ayrıştırma ve LLM analizi geliştirme aşamasında.
+<table width="100%" border="0" cellspacing="0" cellpadding="8">
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/eniskorkut/auto-orchestrator"><img src="assets/projects/auto-orchestrator.jpg" alt="Auto-Orchestrator agent office dashboard" width="100%"></a>
+<h3>Auto-Orchestrator</h3>
+<p>Kod geliştirme ajanlarının birlikte ve kontrollü çalışmasını sağlayan yerel orkestrasyon altyapısı.</p>
+<ul>
+<li>Codex, OpenCode V2, Cursor ve Antigravity entegrasyonları.</li>
+<li>Teamwork, Grill-Me ve milestone tabanlı görev planlama.</li>
+<li>Verified Completion ve doğrulama dashboard'u.</li>
+</ul>
+<p><code>Python</code> · <code>SQLite</code> · <code>GitHub Actions</code></p>
+<p><a href="https://github.com/eniskorkut/auto-orchestrator"><strong>GitHub →</strong></a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/eniskorkut/bugrecall"><img src="assets/projects/bugrecall.jpg" alt="Bugrecall AI debugging memory cover" width="100%"></a>
+<h3>Bugrecall</h3>
+<p>Yapay zekâ kodlama ajanlarına proje bazlı hata ayıklama hafızası kazandıran local-first MCP sistemi.</p>
+<ul>
+<li>Tekrarlanan hataları ve doğrulanmış çözümleri hatırlar.</li>
+<li>Reddedilmiş düzeltme yöntemlerini saklar.</li>
+<li>Hataları imzalara göre sınıflandırır.</li>
+</ul>
+<p><code>TypeScript</code> · <code>MCP</code> · <code>SQLite</code></p>
+<p><a href="https://github.com/eniskorkut/bugrecall"><strong>GitHub →</strong></a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/eniskorkut/job-finder"><img src="assets/projects/job-finder.jpg" alt="Job Finder AI job matching cover" width="100%"></a>
+<h3>Job Finder</h3>
+<p>İş ilanlarını kullanıcıların CV'leri ve tercihleriyle eşleştiren, yapay zekâ destekli iş arama ve takip uygulaması.</p>
+<ul>
+<li>Gmail ve Outlook üzerinden ilan toplama.</li>
+<li>LLM destekli CV ve ilan uygunluk değerlendirmesi.</li>
+<li>SearXNG keşfi, Telegram bildirimleri ve otomatik tarama.</li>
+</ul>
+<p><code>Python</code> · <code>FastAPI</code> · <code>Next.js</code></p>
+<p><a href="https://github.com/eniskorkut/job-finder"><strong>GitHub →</strong></a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/eniskorkut/bist-research"><img src="assets/projects/bist-research.jpg" alt="BIST Research financial intelligence cover" width="100%"></a>
+<h3>BIST Research</h3>
+<p>Borsa İstanbul ve ABD piyasaları için veri toplama, şirket değerleme ve araştırma araçlarını birleştiren finansal analiz ortamı.</p>
+<ul>
+<li>BIST hisselerinde hacim ve piyasa ilgisi analizi.</li>
+<li>Çok yöntemli şirket değerleme ve sektör karşılaştırması.</li>
+<li>OpenBB, SEC EDGAR ve MCP tabanlı araştırma.</li>
+</ul>
+<p><code>Python</code> · <code>Pandas</code> · <code>Streamlit</code></p>
+<p><a href="https://github.com/eniskorkut/bist-research"><strong>GitHub →</strong></a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/eniskorkut/toplant-ozeti"><img src="assets/projects/meeting-intelligence.jpg" alt="Meeting Intelligence local-first meeting analysis cover" width="100%"></a>
+<h3>Meeting Intelligence</h3>
+<p>Yerel öncelikli toplantı transkripsiyonu, konuşmacı ayrıştırma ve toplantı analizi için web uygulaması.</p>
+<ul>
+<li>Tarayıcı tabanlı ses kaydı ve yükleme akışı.</li>
+<li>FastAPI + ffmpeg + whisper.cpp + sherpa-onnx.</li>
+<li>Linux Docker container'da tekrarlanabilir backend.</li>
+</ul>
+<p><code>Python</code> · <code>FastAPI</code> · <code>Docker</code></p>
+<p><a href="https://github.com/eniskorkut/toplant-ozeti"><strong>GitHub →</strong></a> · <code>audio pipeline ready; analysis in progress</code></p>
+</td>
+<td width="50%" valign="top"></td>
+</tr>
+</table>
 
 ---
 
@@ -101,51 +128,57 @@ Yerel öncelikli toplantı transkripsiyonu, konuşmacı ayrıştırma ve toplant
 
 *Aşağıdaki projelerin kaynak kodları şu anda herkese açık değil.*
 
-### YDS Vocabulary Studio
-
-Gerçek sınav verileri üzerinden kelime öğrenimi, içerik üretimi ve kalite değerlendirmesi sağlayan AI destekli eğitim uygulaması.
-
-- 110 sınav kitapçığı ve yaklaşık 630 bin kelime geçişi.
-- 15.876 sınav cümlesi ve 3.881 kelime kartı.
-- Frekans analizi, Türkçe çeviri ve FTS5 arama.
-- OCR ile taranmış kitapçıkların işlenmesi.
-- Bağımsız LLM Judge ile içerik kalite denetimi.
-
-**Teknolojiler:** FastAPI, React, TypeScript, SQLite, FTS5, OCR, LLM.
-
-### AvenoxBeyin — Personal AI Memory
-
-Obsidian tabanlı kişisel bilgi yönetimi ve geliştirici hafızası sistemi.
-
-- Codex, OpenCode ve Antigravity arasında ortak bilgi yapısı.
-- Markdown tabanlı kalıcı bilgi kaydı.
-- SQLite ile yerel indeksleme ve arama.
-- Geliştirme kararlarının ve proje bağlamının korunması.
-- Farklı bilgisayarlarda senkronize çalışma yaklaşımı.
-
-**Teknolojiler:** Python, SQLite, Obsidian, Markdown, Git.
-
-### Sahibinden Vehicle Valuation
-
-Sahibinden ilanlarından araç verisi toplayan, Cloudflare ve CAPTCHA korumasını aşmak için üç farklı yöntem destekleyen araç seti.
-
-- Marka, model, yıl ve kilometre filtreleriyle ilan toplama.
-- SeleniumBase UC Mode, proxy ve IP yenileme seçenekleri.
-- CSV/Excel çıktısı ve kısa süreli arama önbelleği.
-- Bitirme projesi kapsamında araç değerleme veri hattı.
-
-**Teknolojiler:** Python, SeleniumBase, FastAPI, Pandas.
-
-### Quantitative Finance & ML Research
-
-Finansal veriler üzerinde makine öğrenmesi, strateji simülasyonu ve risk modelleme çalışmaları.
-
-- Tarihsel piyasa verilerinin işlenmesi ve doğrulanması.
-- Backtesting, veri sızıntısı kontrolleri ve performans analizi.
-- Risk, getiri ve model değerlendirme deneyleri.
-- Açıklanabilir kredi risk skorlama modelleri.
-
-İlgili açık kaynak çalışma: **[KrediSkoruModelleme](https://github.com/eniskorkut/KrediSkoruModelleme)** — XGBoost ve SHAP ile kredi riski analizi.
+<table width="100%" border="0" cellspacing="0" cellpadding="8">
+<tr>
+<td width="50%" valign="top">
+<img src="assets/projects/yds-vocabulary-studio.jpg" alt="YDS Vocabulary Studio exam corpus and cards cover" width="100%">
+<h3>YDS Vocabulary Studio <code>Private Project</code></h3>
+<p>Gerçek sınav verileri üzerinden kelime öğrenimi, içerik üretimi ve kalite değerlendirmesi sağlayan AI destekli eğitim uygulaması.</p>
+<ul>
+<li>110 sınav kitapçığı ve yaklaşık 630 bin kelime geçişi.</li>
+<li>15.876 sınav cümlesi ve 3.881 kelime kartı.</li>
+<li>OCR ile taranmış kitapçık işleme ve bağımsız LLM Judge.</li>
+</ul>
+<p><code>FastAPI</code> · <code>React</code> · <code>SQLite</code> · <code>FTS5</code></p>
+</td>
+<td width="50%" valign="top">
+<img src="assets/projects/avenoxbeyin.jpg" alt="AvenoxBeyin personal AI memory cover" width="100%">
+<h3>AvenoxBeyin <code>Private Project</code></h3>
+<p>Obsidian tabanlı kişisel bilgi yönetimi ve geliştirici hafızası sistemi.</p>
+<ul>
+<li>Codex, OpenCode ve Antigravity arasında ortak bilgi yapısı.</li>
+<li>Markdown kaydı ve SQLite ile yerel indeksleme.</li>
+<li>Proje kararlarının ve bağlamının korunması.</li>
+</ul>
+<p><code>Python</code> · <code>SQLite</code> · <code>Obsidian</code> · <code>Git</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<img src="assets/projects/sahibinden-valuation.jpg" alt="Sahibinden Vehicle Valuation listing pipeline cover" width="100%">
+<h3>Sahibinden Vehicle Valuation <code>Private Project</code></h3>
+<p>Sahibinden ilanlarından araç verisi toplayan, Cloudflare ve CAPTCHA korumasını aşmak için üç farklı yöntem destekleyen araç seti.</p>
+<ul>
+<li>Marka, model, yıl ve kilometre filtreleriyle ilan toplama.</li>
+<li>SeleniumBase UC Mode, proxy ve IP yenileme seçenekleri.</li>
+<li>CSV/Excel çıktısı ve kısa süreli arama önbelleği.</li>
+</ul>
+<p><code>Python</code> · <code>SeleniumBase</code> · <code>FastAPI</code> · <code>Pandas</code></p>
+</td>
+<td width="50%" valign="top">
+<img src="assets/projects/quant-finance.jpg" alt="Quantitative Finance and ML research cover" width="100%">
+<h3>Quantitative Finance &amp; ML Research <code>Private Project</code></h3>
+<p>Finansal veriler üzerinde makine öğrenmesi, strateji simülasyonu ve risk modelleme çalışmaları.</p>
+<ul>
+<li>Tarihsel piyasa verilerinin işlenmesi ve doğrulanması.</li>
+<li>Backtesting, veri sızıntısı kontrolleri ve performans analizi.</li>
+<li>Açıklanabilir kredi risk skorlama modelleri.</li>
+</ul>
+<p><code>Python</code> · <code>XGBoost</code> · <code>SHAP</code></p>
+<p><a href="https://github.com/eniskorkut/KrediSkoruModelleme"><strong>KrediSkoruModelleme →</strong></a></p>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -166,26 +199,6 @@ Açık kaynak çalışmalarımın yanında kurumsal yapay zekâ sistemlerinin ar
 
 ---
 
-## Teknoloji yığınım
-
-**Languages & Backend**
-
-&#x20; &#x20;
-
-**Frontend**
-
-&#x20;&#x20;
-
-**Data & AI Infrastructure**
-
-&#x20; &#x20;
-
-**AI & Machine Learning**
-
-`RAG` · `LLM` · `MCP` · `Multi-Agent Systems` · `Qdrant` · `AWS Bedrock` · `PyTorch` · `Scikit-learn` · `XGBoost` · `SHAP` · `OpenTelemetry`
-
----
-
 ## Şu sıralar odaklandığım konular
 
 - Doğrulanabilir çıktılar üreten çoklu ajan sistemleri.
@@ -193,6 +206,24 @@ Açık kaynak çalışmalarımın yanında kurumsal yapay zekâ sistemlerinin ar
 - Üretim ortamlarında RAG kalitesi ve gözlemlenebilirlik.
 - Local-first AI sistemleri ve kalıcı ajan hafızası.
 - Finansal veri analizi ve açıklanabilir makine öğrenmesi.
+
+---
+
+## GitHub Statistics
+
+<p align="center">
+  <img src="profile/stats.svg" alt="Enis Korkut GitHub statistics" width="60%">
+</p>
+
+### Activity overview
+
+<p align="center">
+  <img src="https://ghchart.rshah.org/22D3EE/eniskorkut" alt="Enis Korkut son 12 ay GitHub katkı grafiği" width="100%">
+</p>
+
+<p align="center"><sub>Son 12 ayın GitHub katkı grafiği.</sub></p>
+
+---
 
 ## İletişim
 
