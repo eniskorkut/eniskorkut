@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#111827"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0v40" fill="none" stroke="#1E293B" stroke-width="1" opacity="0.45"/></pattern>
+</defs>
+<rect width="1200" height="1200" fill="url(#bg)"/>
+<rect width="1200" height="1200" fill="url(#grid)"/>
+<rect x="0" y="0" width="8" height="1200" fill="url(#accent)"/>
+<text x="72" y="180" font-size="17" letter-spacing="4" fill="#A78BFA" font-family="Helvetica Neue, Arial, sans-serif">PRIVATE PROJECT</text>
+<text x="72" y="300" font-size="56" font-weight="700" fill="#F8FAFC" font-family="Helvetica Neue, Arial, sans-serif">Sahibinden Valuation</text>
+<text x="72" y="360" font-size="23" fill="#94A3B8" font-family="Helvetica Neue, Arial, sans-serif">Vehicle listing collection and valuation pipeline</text>
+<rect x="72" y="1000" width="96" height="42" rx="21" fill="#0F172A" stroke="#334155"/><text x="120.0" y="1027" text-anchor="middle" font-size="17" fill="#CBD5E1" font-family="Helvetica Neue, Arial, sans-serif">Python</text><rect x="180" y="1000" width="154" height="42" rx="21" fill="#0F172A" stroke="#334155"/><text x="257.0" y="1027" text-anchor="middle" font-size="17" fill="#CBD5E1" font-family="Helvetica Neue, Arial, sans-serif">SeleniumBase</text><rect x="346" y="1000" width="96" height="42" rx="21" fill="#0F172A" stroke="#334155"/><text x="394.0" y="1027" text-anchor="middle" font-size="17" fill="#CBD5E1" font-family="Helvetica Neue, Arial, sans-serif">Pandas</text>
+
+<g transform="translate(820 520)">
+  <path d="M35 130l18-42c6-14 18-22 34-22h58c16 0 28 8 34 22l18 42" fill="none" stroke="#A78BFA" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="30" y="126" width="170" height="44" rx="14" fill="#0F172A" stroke="#A78BFA" stroke-width="3"/>
+  <circle cx="70" cy="176" r="16" fill="#0B1220" stroke="#C4B5FD" stroke-width="4"/>
+  <circle cx="160" cy="176" r="16" fill="#0B1220" stroke="#C4B5FD" stroke-width="4"/>
+  <path d="M70 130h90" stroke="#334155" stroke-width="3"/>
+  <path d="M150 60h50v28h-50z" fill="#0F172A" stroke="#C4B5FD" stroke-width="2"/>
+  <text x="160" y="80" font-size="16" fill="#C4B5FD">₺</text>
+</g>
+</svg>
