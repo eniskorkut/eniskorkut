@@ -215,12 +215,6 @@ Açık kaynak çalışmalarımın yanında kurumsal yapay zekâ sistemlerinin ar
   <img src="profile/stats.svg" alt="Enis Korkut GitHub statistics" width="60%">
 </p>
 
-### Activity overview
-
-<p align="center">
-  <img src="profile/activity.svg" alt="Enis Korkut son 12 ay GitHub katkı grafiği" width="100%">
-</p>
-
 ---
 
 ## İletişim
